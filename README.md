@@ -4,7 +4,7 @@ Spring Boot Graph QL Example
 
 Based on the LinkedIn Learning Tutorial: "**Spring with GraphQL**".
 
-This project is a simple example of how to use GraphQL with Spring Boot on a mock e-commerce database.
+This project is a simple example of how to use GraphQL with Spring Boot on a mock e-commerce dataset.
 
 Requirements
 ---
@@ -16,7 +16,7 @@ Requirements
 How to run
 ---
 1. Open the project in the IDE
-2. Navigate to HplusApplication and run the `main` method
+2. Navigate to `src/main/java/com/jesse.lil.hplus/HplusApplication.java` and run the `main` method
 3. Open the GraphQL Client and use `http://localhost:8080/` as the endpoint
 
 Spring Framework Configuration
@@ -41,7 +41,7 @@ The code base was initialized on https://start.spring.io with the following sett
     - **Spring Boot Actuator**
 
 After importing this configuration, these files were deleted:
-- hplus/.mvn
-- hplus/HELP.md
-- hplus/mvnw
-- hplus/mvnw.cmd
+- .mvn
+- HELP.md
+- mvnw
+- mvnw.cmd
